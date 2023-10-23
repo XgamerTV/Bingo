@@ -1,0 +1,15 @@
+name: Bingo
+version: '${project.version}'
+main: me.mats.bingo.Bingo
+api-version: 1.20
+commands:
+  worldtp:
+    description: Debugging
+    usage: /<command> <world>
+  bingo:
+    description: Bingo stuff
+  playerdata:
+    description: Debugging
+  countdown:
+    description: Manipulating the Countdown
+softdepend: [NBTAPI]
